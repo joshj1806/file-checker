@@ -15,7 +15,7 @@
 
 (defn- file->map
   "Returns hash map of a key and the file path.
-  hash agorithm can be MD5 or SHA.
+  hash algorithm can be MD5 or SHA.
   Please refer to https://github.com/tebeka/clj-digest"
   [f & {:keys [algorithm] :or {algorithm digest/sha}}]
   (hash-map (algorithm f) (.getPath f)))
