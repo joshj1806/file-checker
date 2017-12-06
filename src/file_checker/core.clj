@@ -47,11 +47,3 @@
        tr
        (filter (fn ff [[k v]] (<= 2 (count v))))
        (into [])))
-
-
-;; files -> tree
-;; travers all tree elements to produce {cksum, path} (parrel map)
-;;    skip symbolic links
-;; groupby cksum
-;; filter if more than 2 values
-;; print the outputs
