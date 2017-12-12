@@ -26,8 +26,8 @@
  Inputs: "directory name" e.g "/" for root.
  Outputs: Lists of duplicates files.
 
- e.g [("/Users/josh/test/f1.txt" "/Users/josh/test/sub-test/f1-copy.txt")\n
- ("/Users/josh/test/f2.txt" "/Users/josh/test/sub-test/f2-copy.txt")]
+ e.g [("/Users/josh/test/f1.txt" "/Users/josh/test/sub-test/f1-copy.txt")
+      ("/Users/josh/test/f2.txt" "/Users/josh/test/sub-test/f2-copy.txt")]
 
 # Assumptions and Known limitations
  Soft links are not considered as a 'real' files.
