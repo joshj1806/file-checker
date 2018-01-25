@@ -1,6 +1,8 @@
 # file-checker
  File-checker application returns duplicated files in the system. 
  It leverages parallelization using JVM folk/join or Spark.
+ (I know comparing file sizes are better solution in terms of computing resources.
+ This project is for demonstrating power of functional programming and Spark)
 
 # Design approach
  "Comparing checksums of files using a hash table and parallel
